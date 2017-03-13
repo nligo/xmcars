@@ -1,3 +1,16 @@
+cars_core:
+    resource: "@CarsCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cars_admin:
+    resource: "@CarsAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cars_api:
+    resource: "@CarsApiBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
