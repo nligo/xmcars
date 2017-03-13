@@ -20,7 +20,7 @@
 						<ul class="dropDown-menu menu radius box-shadow">
 							<li><a href="#">个人信息</a></li>
 							<li><a href="#">切换账户</a></li>
-							<li><a href="/" onclick="return confirm('确认退出并注销吗？')">退出</a></li>
+							<li><a href="{{ path('cars_admin_logout') }}" onclick="return confirm('确认退出并注销吗？')">退出</a></li>
 						</ul>
 					</li>
 					{#<li id="Hui-msg"> <a href="javascript:;" onclick="article_add('充值记录','{{ path('admin_usersearchscore_list') }}')"><span class="badge badge-danger">{% if count is defined and count !=0 %}{{ count }}{% endif %}</span><i class="Hui-iconfont" style="font-size:18px">充值提醒</i></a> </li>#}
