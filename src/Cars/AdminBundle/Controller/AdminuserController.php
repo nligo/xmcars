@@ -34,25 +34,13 @@ class AdminuserController extends BaseController
 
         if ($form->isSubmitted()) {
             $param = $request->request->get('cars_corebundle_user');
-            $password = $param['password'];
-            $encoder = $this->container->get('security.encoder_factory')
-                ->getEncoder($user)
-            ;
-            $encoded = $encoder->encodePassword($password, $user->getSalt());
-
-            $user->setPassword($encoded);
-            $user->setUserType(2);
-            $user->setRole('ROLE_ADMIN');
-            $this->_em()->persist($user);
-            $this->_em()->flush($user);
-            $userProfile = new UserProfile();
-            $userProfile->setUserId($user);
-            $user->setProfile($userProfile);
-            $this->_em()->persist($userProfile);
-            $this->_em()->flush($userProfile);
-            $this->_em()->persist($user);
-            $this->_em()->flush($user);
-            return $user;
+            $param['role'] = 'ROLE_ADMIN';
+            $param['userType'] = 2;
+            $result = $this->get('cars_core.manager_user')->createUser($param);
+            if(isset($result['code']) && $result['code'] == 0)
+            {
+                return $result['data'];
+            }
         }
 
         return $this->render('CarsAdminBundle:Adminuser:new.html.twig', array(

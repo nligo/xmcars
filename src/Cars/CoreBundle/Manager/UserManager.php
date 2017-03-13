@@ -27,10 +27,13 @@ class UserManager implements UserManagerInterface
      */
     protected $class;
 
-    public function __construct(EntityManager $em, $class) {
+    protected $container;
+
+    public function __construct(EntityManager $em, $class,$container) {
         $this->em = $em;
         $this->class = $class;
         $this->repo = $em->getRepository($class);
+        $this->container = $container;
     }
 
     public function getRepo()
@@ -47,6 +50,14 @@ class UserManager implements UserManagerInterface
      */
     public function createUser(array $data)
     {
+        if(isset($data['password']) && !empty($data['password']))
+        {
+            $user = new User();
+            $encoder = $this->container->get('security.encoder_factory')
+                ->getEncoder($user)
+            ;
+            $data['password'] = $encoder->encodePassword($data['password'], $user->getSalt());
+        }
         return $this->repo->createUser($data);
     }
 

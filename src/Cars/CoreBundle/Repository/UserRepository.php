@@ -13,18 +13,90 @@ use Cars\CoreBundle\Manager\UserManagerInterface;
  */
 class UserRepository extends \Doctrine\ORM\EntityRepository implements UserManagerInterface
 {
-
     public function createUser(array $data)
     {
+        $returnArray = array('code'=> -1,'msg'=>'参数错误！','data' => array());
+        if((!isset($data['username']) || empty($data['username']) || (!isset($data['password']) || empty($data['password']))))
+        {
+            return $returnArray;
+        }
+        $userInfo = $this->findBy(array('username'=>$data['username']));
+        if(!empty($userInfo))
+        {
+            $returnArray['code'] = 1;
+            $returnArray['msg'] = '用户名已存在！';
+            return $returnArray;
+        }
+        try  {
+            $user = new User();
+            foreach ($data as $k=>$v)
+            {
+                $method = 'set'.ucfirst($k);
+                $user->$method($v);
+            }
+            $this->_em->persist($user);
+            $this->_em->flush($user);
+            $returnArray['code'] = 0;
+            $returnArray['msg'] = '操作成功！';
+            $returnArray['data'] = $user;
+            return $returnArray;
+        } catch (\Exception $e) {
+            $returnArray['code'] = 2;
+            $returnArray['msg'] = '服务器错误！';
+            return $returnArray;
+        }
+
     }
 
     public function deleteUser($userId = 0)
     {
-        // TODO: Implement deleteUser() method.
+        $user = $this->find($userId);
+        if(!empty($user))
+        {
+            $user->setIsDelete(1);
+            $this->_em->persist($user);
+            $this->_em->flush($user);
+            return true;
+        }
+        return false;
+
     }
 
     public function findUserBy(array $criteria)
     {
-        // TODO: Implement findUserBy() method.
+        $qb = $this->createQueryBuilder('u');
+        $qb = $this->_getWhere($qb,$criteria);
+        $qb->orderBy('u.id','DESC');
+        $result = $qb->getQuery()->getResult();
+        return !empty($result) ? $result : array();
+    }
+
+    private function _getWhere($qb,array $criteria)
+    {
+        if(!empty($criteria))
+        {
+            foreach ($criteria as $k=>$v)
+            {
+                if(isset($k) && !empty($k) && isset($v) && !empty($v))
+                {
+                    $param  =   explode('_',$k);
+                    switch ($param[1]){
+                        case 'like':
+                            $qb->andWhere('u.'.$param[0].' LIKE :'.$param[0])->setParameter($param[0], '%'.$v.'%');
+                            break;
+                        case 'equal':
+                            $qb->andWhere('u.'.$param[0].' = :'.$param[0])->setParameter($param[0], $v);
+                            break;
+                        case 'start':
+                            $qb->andWhere('u.'.$param[0].' >= :'.$param[0])->setParameter($param[0],strtotime($v));
+                            break;
+                        case 'end':
+                            $qb->andWhere('u.'.$param[0].' <= :'.$param[0].'1')->setParameter($param[0].'1',strtotime($v));
+                            break;
+                    }
+                }
+            }
+        }
+        return $qb;
     }
 }

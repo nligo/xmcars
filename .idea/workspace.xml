@@ -2,57 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d497f3ac-d474-4752-be02-b62b0b4e554e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Pagination/filtration.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Pagination/foundation_v5_pagination.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Pagination/my_page.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Pagination/sliding.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Pagination/sortable_link.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Pagination/twitter_bootstrap_pagination.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Pagination/twitter_bootstrap_v3_pagination.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Pagination/yt_pagination.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/AdminuserController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/BaseController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/IndexController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/NperRecordController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/SecurityController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/config/routing/adminuser.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/config/routing/nperrecord.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/del.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/edit.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/list.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/new.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Common/_footer.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Common/_header.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Common/_menu.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Common/_meta.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Common/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/NperRecord/list.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Security/login.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Security/logout.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/layout.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/welcome.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Entity/NperRecord.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Entity/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Form/UserType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Manager/NperRecordManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Manager/NperRecordManagerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManagerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Services/ContainerAware.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Services/Curl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Services/GetLottery.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/DefaultController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Default/index.html.twig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/AdminuserController.php" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/AdminuserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/new.html.twig" afterPath="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cars/CoreBundle/Entity/User.php" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Entity/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManager.php" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cars/CoreBundle/Repository/UserRepository.php" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Repository/UserRepository.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cars/CoreBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Cars/CoreBundle/Resources/config/services.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,8 +27,8 @@
             <file leaf-file-name="services.yml" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Resources/config/services.yml">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="525">
-                    <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+                  <state relative-caret-position="600">
+                    <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="42" />
                     <folding />
                   </state>
                 </provider>
@@ -88,11 +42,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Repository/UserRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="960">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="e#46#78#0#PHP" expanded="true" />
               </folding>
@@ -100,17 +54,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminuserController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NperRecordRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Repository/NperRecordRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1191">
+              <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+                <element signature="e#127#159#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminuserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cars/AdminBundle/Controller/AdminuserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+            <state relative-caret-position="75">
+              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
               <folding>
-                <element signature="e#47#79#0#PHP" expanded="true" />
                 <element signature="e#813#855#0#PHP" expanded="true" />
-                <element signature="e#2090#2131#0#PHP" expanded="true" />
-                <element signature="e#2302#2339#0#PHP" expanded="true" />
-                <element signature="e#2456#2492#0#PHP" expanded="true" />
+                <element signature="e#1594#1635#0#PHP" expanded="true" />
+                <element signature="e#1806#1843#0#PHP" expanded="true" />
+                <element signature="e#1960#1996#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,8 +122,8 @@
       <file leaf-file-name="new.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/new.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="126" column="28" lean-forward="false" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
+            <state relative-caret-position="855">
+              <caret line="143" column="13" lean-forward="false" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
               <folding>
                 <element signature="e#2977#3012#0#Twig" expanded="true" />
                 <element signature="e#5708#5727#0#Twig" expanded="true" />
@@ -160,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Form/UserType.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding>
                 <element signature="e#40#80#0#PHP" expanded="true" />
               </folding>
@@ -172,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManagerInterface.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="e#6#222#0#PHP" expanded="true" />
               </folding>
@@ -183,21 +159,11 @@
       <file leaf-file-name="UserManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="366">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#135#167#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminuser.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cars/AdminBundle/Resources/config/routing/adminuser.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -243,10 +209,8 @@
         <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/NperRecord/list.html.twig" />
         <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/IndexController.php" />
-        <option value="$PROJECT_DIR$/src/Cars/CoreBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/src/Cars/CoreBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/Cars/CoreBundle/Repository/UserInterInce.php" />
         <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Common/_menu.html.twig" />
@@ -260,11 +224,13 @@
         <option value="$PROJECT_DIR$/src/Cars/CoreBundle/Form/UserType.php" />
         <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/config/routing/adminuser.yml" />
         <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/list.html.twig" />
-        <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/new.html.twig" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/AdminuserController.php" />
         <option value="$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManagerInterface.php" />
+        <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/Cars/CoreBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManager.php" />
+        <option value="$PROJECT_DIR$/src/Cars/AdminBundle/Controller/AdminuserController.php" />
+        <option value="$PROJECT_DIR$/src/Cars/CoreBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/Cars/CoreBundle/Repository/UserRepository.php" />
       </list>
     </option>
@@ -381,6 +347,84 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CoreBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcars" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cars" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcars" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cars" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Manager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcars" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cars" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -580,12 +624,12 @@
       <option name="presentableId" value="Default" />
       <updated>1489369112590</updated>
       <workItem from="1489369113870" duration="1317000" />
-      <workItem from="1489371546602" duration="17100000" />
+      <workItem from="1489371546602" duration="20386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18417000" />
+    <option name="totallyTimeSpent" value="21703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="54" width="1920" height="1080" extended-state="0" />
@@ -905,17 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="93" column="7" lean-forward="false" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-            <element signature="e#127#159#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cars/AdminBundle/Controller/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -955,14 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Manager/BaseInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -991,14 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Repository/NperRecordRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cars/AdminBundle/Resources/config/routing/adminuser.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1015,16 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="e#135#167#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="691">
@@ -1033,20 +1040,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Repository/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#46#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManagerInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="e#6#222#0#PHP" expanded="true" />
           </folding>
@@ -1056,20 +1053,9 @@
     <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Form/UserType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding>
             <element signature="e#40#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="126" column="28" lean-forward="false" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
-          <folding>
-            <element signature="e#2977#3012#0#Twig" expanded="true" />
-            <element signature="e#5708#5727#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1089,16 +1075,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cars/AdminBundle/Resources/views/Adminuser/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="143" column="13" lean-forward="false" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+          <folding>
+            <element signature="e#2977#3012#0#Twig" expanded="true" />
+            <element signature="e#5708#5727#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Manager/UserManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#135#167#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cars/AdminBundle/Controller/AdminuserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="75">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding>
-            <element signature="e#47#79#0#PHP" expanded="true" />
             <element signature="e#813#855#0#PHP" expanded="true" />
-            <element signature="e#2090#2131#0#PHP" expanded="true" />
-            <element signature="e#2302#2339#0#PHP" expanded="true" />
-            <element signature="e#2456#2492#0#PHP" expanded="true" />
+            <element signature="e#1594#1635#0#PHP" expanded="true" />
+            <element signature="e#1806#1843#0#PHP" expanded="true" />
+            <element signature="e#1960#1996#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1191">
+          <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <element signature="e#127#159#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Repository/NperRecordRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cars/CoreBundle/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#78#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

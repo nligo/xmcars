@@ -98,6 +98,12 @@ class User implements UserInterface
     public $wxOpenId = "";
 
     /**
+     * @var integer
+     * @ORM\Column(type="integer",name="is_delete",options={"comment":"用户删除标示 0为正常 1为删除"})
+     */
+    private $isDelete = "0";
+
+    /**
      * @ORM\PrePersist
      */
     public function PrePersist()
@@ -398,5 +404,29 @@ class User implements UserInterface
     public function getWxOpenId()
     {
         return $this->wxOpenId;
+    }
+
+    /**
+     * Set isDelete
+     *
+     * @param integer $isDelete
+     *
+     * @return User
+     */
+    public function setIsDelete($isDelete)
+    {
+        $this->isDelete = $isDelete;
+
+        return $this;
+    }
+
+    /**
+     * Get isDelete
+     *
+     * @return integer
+     */
+    public function getIsDelete()
+    {
+        return $this->isDelete;
     }
 }
