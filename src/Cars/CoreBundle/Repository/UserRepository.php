@@ -59,7 +59,6 @@ class UserRepository extends \Doctrine\ORM\EntityRepository implements UserManag
             return true;
         }
         return false;
-
     }
 
     public function findUserBy(array $criteria)

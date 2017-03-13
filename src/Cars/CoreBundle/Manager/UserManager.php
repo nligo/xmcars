@@ -1,8 +1,11 @@
 <?php
 /*
- * This file is NperRecord entity operator.
+ * This file is the user's manager.
  *
- * (c)  coffey  Jon <coffey@nligo.com>
+ * (c)  coffey  <http://www.symfonychina.org>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 namespace Cars\CoreBundle\Manager;
 
@@ -10,6 +13,11 @@ use Cars\CoreBundle\Entity\User;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityRepository;
 
+/**
+ * @author  coffey  <coffey@nligo.com>
+ * Class UserManager
+ * @package Cars\CoreBundle\Manager
+ */
 class UserManager implements UserManagerInterface
 {
     /**
@@ -27,6 +35,9 @@ class UserManager implements UserManagerInterface
      */
     protected $class;
 
+    /**
+     * @var container
+     */
     protected $container;
 
     public function __construct(EntityManager $em, $class,$container) {
@@ -41,13 +52,6 @@ class UserManager implements UserManagerInterface
         return $this->repo;
     }
 
-    /**
-     * @author  coffey
-     *
-     * 创建一个用户
-     * @param array $data
-     * @return mixed
-     */
     public function createUser(array $data)
     {
         if(isset($data['password']) && !empty($data['password']))
@@ -63,11 +67,11 @@ class UserManager implements UserManagerInterface
 
     public function deleteUser($userId = 0)
     {
-        // TODO: Implement deleteUser() method.
+        return $this->repo->deleteUser($userId);
     }
 
     public function findUserBy(array $criteria)
     {
-        // TODO: Implement findUserBy() method.
+        return $this->repo->findUserBy($criteria);
     }
 }

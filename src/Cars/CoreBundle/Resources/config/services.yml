@@ -33,9 +33,16 @@ services:
         arguments:
             em: "@doctrine.orm.entity_manager"
             class: Cars\CoreBundle\Entity\NperRecord
+
     cars_core.manager_user:
         class: Cars\CoreBundle\Manager\UserManager
         arguments:
             em: "@doctrine.orm.entity_manager"
             class: Cars\CoreBundle\Entity\User
             conatiner: "@service_container"
+
+    cars_core.manager_userscorelog:
+        class: Cars\CoreBundle\Manager\UserScoreLogManager
+        arguments:
+            em: "@doctrine.orm.entity_manager"
+            class: Cars\CoreBundle\Entity\UserScoreLog

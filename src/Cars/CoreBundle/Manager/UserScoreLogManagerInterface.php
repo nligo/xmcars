@@ -7,35 +7,27 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-
 namespace Cars\CoreBundle\Manager;
 
 /**
- * Interface UserManagerInterface
+ * Interface UserScoreLogManagerInterface
  *
  * @author  coffey  <coffey@nligo.com>
  * @package Cars\CoreBundle\Repository
  */
-interface UserManagerInterface
+interface UserScoreLogManagerInterface
 {
     /**
-     * create a user
+     * create a score log
      * @param array $data
      * @return mixed
      */
-    public function createUser(array $data);
+    public function createScoreLog(array $data);
 
     /**
-     * delete a user
-     * @param int $userId
-     * @return mixed
-     */
-    public function deleteUser($userId = 0);
-
-    /**
-     * Finds one user by the given criteria.
+     * get score logs by criteria
      * @param array $criteria
      * @return mixed
      */
-    public function findUserBy(array $criteria);
+    public function getLogBy(array $criteria);
 }

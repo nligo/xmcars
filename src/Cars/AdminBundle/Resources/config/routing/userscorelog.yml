@@ -1,0 +1,15 @@
+admin_userscorelog_list:
+    path:     /list
+    defaults: { _controller: CarsAdminBundle:UserScoreLog:list }
+admin_userscorelog_new:
+    path:     /new
+    defaults: { _controller: CarsAdminBundle:UserScoreLog:new }
+admin_userscorelog_edit:
+    path:     /{id}/edit
+    defaults: { _controller: CarsAdminBundle:UserScoreLog:edit }
+admin_userscorelog_del:
+    path:     /{id}/del
+    defaults: { _controller: CarsAdminBundle:UserScoreLog:del }
+admin_userscorelog_check:
+    path:     /check
+    defaults: { _controller: CarsAdminBundle:UserScoreLog:check }

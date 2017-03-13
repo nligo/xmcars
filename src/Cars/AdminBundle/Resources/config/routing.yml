@@ -18,3 +18,6 @@ cars_admin_nperrecord:
 cars_admin_adminuser:
     resource: "@CarsAdminBundle/Resources/config/routing/adminuser.yml"
     prefix:   /adminuser
+cars_admin_userscorelog:
+    resource: "@CarsAdminBundle/Resources/config/routing/userscorelog.yml"
+    prefix:   /userscorelog

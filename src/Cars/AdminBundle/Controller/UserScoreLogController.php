@@ -2,25 +2,25 @@
 
 namespace Cars\AdminBundle\Controller;
 
-use Cars\CoreBundle\Entity\User;
-use Cars\CoreBundle\Entity\UserProfile;
+use Cars\CoreBundle\Entity\UserScoreLog;
 use Symfony\Component\HttpFoundation\Request;
 
-class AdminuserController extends BaseController
+class UserScoreLogController extends BaseController
 {
     public function listAction(Request $request)
     {
         $param = $request->get('searchParam');
-        $page = $request->query->get('page');
-        $param = isset($param) ? $param : array();
-        $param['page'] = isset($page) ? $page : 1;
-        $userlist = $this->get('cars_core.manager_user')->getRepo()->findBy(array('userType'=>2),array('createTime'=>'DESC'));
+        if(!isset($param['scoreType_equal']))
+        {
+            $param['scoreType_equal'] = 0;
+        }
+        $list = $this->get('cars_core.manager_userscorelog')->getLogBy($param);
         $paginator  = $this->get('knp_paginator');
         $pagination = $paginator->paginate(
-            $userlist,
-            $request->query->getInt('page', $param['page'])
+            $list,
+            $request->query->getInt('page', 1)
         );
-        return $this->render('CarsAdminBundle:Adminuser:list.html.twig', array(
+        return $this->render('CarsAdminBundle:Userscore:list.html.twig', array(
             'searchParam' => $param,
             'pagination' => $pagination,
         ));
