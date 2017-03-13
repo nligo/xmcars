@@ -1,17 +1,38 @@
 # To get started with security, check out the documentation:
 # http://symfony.com/doc/current/security.html
 security:
-
+    encoders:
+        Cars\CoreBundle\Entity\User:
+            algorithm: bcrypt
     # http://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
     providers:
         in_memory:
             memory: ~
-
+        users:
+            entity: { class: CarsCoreBundle:User, property: username }
     firewalls:
         # disables authentication for assets and the profiler, adapt it according to your needs
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
+
+        admin_secured_area:
+            pattern:   ^/admin
+            methods: [GET,POST]
+            anonymous: ~
+            provider: users
+            access_denied_url: cars_admin_login
+            form_login:
+                login_path: cars_admin_login
+                check_path: cars_admin_login
+                default_target_path: /admin
+            logout:
+                path: cars_admin_logout
+                target: cars_admin_login
+            remember_me:
+                secret:   '%secret%'
+                lifetime: 604800 # 1 week in seconds
+                path: cars_admin_homepage
 
         main:
             anonymous: ~
@@ -22,3 +43,6 @@ security:
 
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
             #form_login: ~
+    access_control:
+        - { path: ^/admin/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin, roles: ROLE_ADMIN }

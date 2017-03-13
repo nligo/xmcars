@@ -7,7 +7,6 @@ imports:
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: en
-
 framework:
     #esi: ~
     #translator: { fallbacks: ['%locale%'] }
@@ -94,3 +93,15 @@ fos_rest:
 
 
 nelmio_api_doc: ~
+# 分页配置
+knp_paginator:
+    page_range: 20                      # 默认页面用于分页控制范围
+    default_options:
+        page_name: page                # 页面查询参数名称
+        sort_field_name: sort          # 排序字段查询参数名称
+        sort_direction_name: direction # 排序方向查询参数名称
+        distinct: true                 # 确保不同的结果,当ORM使用GROUP BY语句查询是有用的
+
+    template:
+        pagination: Pagination/my_page.html.twig     # 滑动分页控件模板
+        sortable: Pagination/sortable_link.html.twig # 链接模板

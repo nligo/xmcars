@@ -1,3 +1,20 @@
 cars_admin_homepage:
     path:     /
-    defaults: { _controller: CarsAdminBundle:Default:index }
+    defaults: { _controller: CarsAdminBundle:Index:index }
+
+cars_admin_welcome:
+    path:     /welcome
+    defaults: { _controller: CarsAdminBundle:Index:welcome }
+cars_admin_login:
+    path:     /login
+    defaults: { _controller: CarsAdminBundle:Security:login }
+cars_admin_logout:
+    path:     /logout
+    defaults: { _controller: CarsAdminBundle:Security:logout }
+
+cars_admin_nperrecord:
+    resource: "@CarsAdminBundle/Resources/config/routing/nperrecord.yml"
+    prefix:   /nperrecord
+cars_admin_adminuser:
+    resource: "@CarsAdminBundle/Resources/config/routing/adminuser.yml"
+    prefix:   /adminuser

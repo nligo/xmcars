@@ -1,0 +1,15 @@
+admin_adminuser_list:
+    path:     /list
+    defaults: { _controller: CarsAdminBundle:Adminuser:list }
+admin_adminuser_new:
+    path:     /new
+    defaults: { _controller: CarsAdminBundle:Adminuser:new }
+admin_adminuser_edit:
+    path:     /{id}/edit
+    defaults: { _controller: CarsAdminBundle:Adminuser:edit }
+admin_adminuser_del:
+    path:     /{id}/del
+    defaults: { _controller: CarsAdminBundle:Adminuser:del }
+admin_adminuser_check:
+    path:     /check
+    defaults: { _controller: CarsAdminBundle:Adminuser:check }
